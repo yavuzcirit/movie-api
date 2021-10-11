@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    width: 90%
+}
+
+.col {
+    display: flex !important;
+    justify-content: center;
+}
