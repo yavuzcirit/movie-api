@@ -69,7 +69,7 @@ const Movies = () => {
 
     return (
         <div className={styles.container}>
-            <Row gutter={[16, 16]} className={styles.row}>
+            <Row gutter={[16, 16]} className={styles.row} style={{flexFlow:'row nowrap',overflowX:'scroll'}}>
                 {movies.length ?
                     movies.map((movie, index) => {
                         return (

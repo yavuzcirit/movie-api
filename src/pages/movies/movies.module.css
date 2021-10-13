@@ -1,13 +1,16 @@
 .container {
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 }
 
 .row {
-    width: 90%
+    width: 90%;
+
 }
 
 .col {
     display: flex !important;
+    flex-direction: right;
     justify-content: center;
 }
