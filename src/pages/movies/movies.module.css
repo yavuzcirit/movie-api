@@ -6,6 +6,7 @@
 
 .row {
     width: 90%;
+   
 
 }
 
@@ -14,3 +15,4 @@
     flex-direction: right;
     justify-content: center;
 }
+
